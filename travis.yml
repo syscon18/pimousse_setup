@@ -3,3 +3,8 @@ dist: trusty
 
 scriot:
   - bash -xve ./test/travis_ros_install.bash
+
+language: ruby
+rvm:
+ - 2.2
+ - jruby
